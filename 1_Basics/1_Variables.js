@@ -12,7 +12,7 @@ accountEmail = "b7b7@gmail.com"
 accountPassword = "654123"
 accountCity = "Bengaluru"
 
-console.log(accountId);
+console.log(accountId)
 
 /*
 Prefer not to use var
@@ -20,4 +20,4 @@ because of issue in block scope i.e., " {} " and functional scope
 */
 
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
