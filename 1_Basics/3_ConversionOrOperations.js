@@ -119,3 +119,74 @@ console.log(typeof stringNumber); //return string
 
 // *********** Operations *************
 
+let value = 3
+let negValue = -value //assign -ve assign 
+console.log(value); // return +ve value ka 3
+console.log(negValue); //return -ve value ka -3
+
+console.log(2+2); // doing Addition
+console.log(2-2); // doing substraction
+console.log(2*2); // doing Multiplication
+
+// ** this double asteric means raise to power
+console.log(2**2); // 2 raise to power 3
+console.log(2/3); // for Divice
+console.log(2%3); // for getting Remainder
+
+
+
+let str1 = "Dishant"
+let str2 = "Pal"
+// Concatenation of 2 String
+let str3 = str1 + str2 
+console.log("Concatenation of 2 String is: "+ str3);
+
+
+
+
+// Some Tricky Tricks in Opeartions
+
+console.log("1" + 2)
+/* Here's what happens:
+  1. The first operand is the string "1".
+  2. The second operand is the number 2.
+  3. Since one of the operands is a string, JavaScript converts the number 2 into a string as well.
+  4. It then concatenates the two strings: "1" + "2" results in "12".
+
+// NOTE-: If you want to perform arithmetic addition instead of string concatenation, you can convert the string to a number using Number() or parseInt():
+
+
+console.log(Number("1") + 2); // Outputs: 3
+*/
+
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2")
+
+console.log( (3 + 4) * 5 % 3); //return 2 as answer but bad practice for writing confusion code
+
+
+
+
+console.log(true); //return true
+console.log(+true); //return 1, bcz true get converted
+console.log(+""); //return 0, empty string get converted
+
+
+
+let no1, no2, no3
+
+no1 = no2 = no3 = 2 + 2
+
+
+let gameCounter = 100
+++gameCounter
+console.log(gameCounter);
+
+
+
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion 
+
+
