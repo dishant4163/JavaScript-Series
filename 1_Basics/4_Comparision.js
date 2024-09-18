@@ -42,7 +42,7 @@ console.log(undefined <= 0);
 
 // Case of triple equality check ' === ' or we call 'Strict Check'
 console.log("2" === 2);
-
+//Strict Check/Equality ( === )  checks both the value and the Data type
 
 
 
