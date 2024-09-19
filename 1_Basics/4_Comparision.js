@@ -46,4 +46,5 @@ console.log("2" === 2);
 
 
 
-// Note such of Comparision that mention Above
+// Note such of Comparision that mention Above is a Bad Practice for comparision 
+// Just 4 basic knowledge of working of comparision in JS
