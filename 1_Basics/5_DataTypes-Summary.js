@@ -75,11 +75,51 @@ const myFunction = function(){
     console.log("Welcome to the JavaScript-Series :-)");
 }
 
-console.log(typeof myFunction); //iska return type Function But it is known as object-Function
+// console.log(typeof myFunction); //iska return type Function But it is known as object-Function
 
 
 
 
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3  
+
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack & Heap memory in javascript
+
+/* NOTES:- 
+  # in JS we have 2 types of Memory, i). Stack, ii). Heap
+  # Primitive DataType usage STACK(in stack we get copy of variable)
+  # Non-Primitive DataType usage HEAP(in heap, we get reference of Original value(jo bhi change hoga wo original mein hoga) )
+*/
+
+let myName = "DishantPal"
+
+let anotherName = myName
+anotherName = "JavaScript" //change in copy(stack)
+
+console.log(myName);
+console.log(anotherName);
+
+
+
+
+//get copy in stack & goes into Heap as reference from stack
+// userOne variable goes in stack then give reference
+let userOne = {
+    email: "user1@gmail.com",
+    upi: "user1@ybl"
+}
+
+let userTwo  = userOne
+
+userTwo.email = "user2@hotmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
