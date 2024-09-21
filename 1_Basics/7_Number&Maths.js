@@ -24,14 +24,14 @@ quite confusing and interesting to use toPrecision
 
 
 const hundreds = 1000000
-console.log(hundreds); //comparing 
+// console.log(hundreds); //comparing 
 
 //'toLocaleString()' convert no. into string
 // i.e, 10000 to 10,000
-console.log(typeof hundreds.toLocaleString());
-console.log(hundreds.toLocaleString('en-US')); 
+// console.log(typeof hundreds.toLocaleString());
+// console.log(hundreds.toLocaleString('en-US')); 
 // gives acc. to USA standrad
-console.log(hundreds.toLocaleString('en-IN')); 
+// console.log(hundreds.toLocaleString('en-IN')); 
 // gives acc. to Indian Standard/number system
 
 
@@ -39,5 +39,29 @@ console.log(hundreds.toLocaleString('en-IN'));
 
 // +++++++++******** Maths *********+++++++++++
 
+
+// console.log(Math);
+// console.log(Math.abs(-5));
+// console.log(Math.round(2.9));
+// console.log(Math.ceil(8.3));
+// console.log(Math.floor(6.9));
+// console.log(Math.min(11, 24, 37));
+// console.log(Math.max(16, 8, 11));
+
+
+
+console.log(Math.random());
+// adding +1 to avoid Zero Values
+console.log((Math.random()*10) + 1);
+console.log(Math.floor(Math.random()*10) + 1);
+
+
+
+const min = 10
+const max = 20
+
+
+// Point to note line no. - 65
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 
