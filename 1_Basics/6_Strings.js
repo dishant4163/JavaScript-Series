@@ -18,6 +18,7 @@ const uid = 4163
 const gameName = new String('dishant-dp-com')
 
 // console.log(gameName[0]); //return 0 index from object
+// Prototype defines property
 // console.log(gameName.__proto__); //return {} <-empty object
 
 
