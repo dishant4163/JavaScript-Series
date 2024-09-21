@@ -59,7 +59,7 @@ console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
 const max = 20
-
+// for getting range by doing (max-min)
 
 // Point to note line no. - 60-65
 console.log(Math.floor(Math.random() * (max - min + 1)) + min);
