@@ -17,6 +17,11 @@ const myArr2 = new Array(1, 2, 3, 4, 6)
 // myArr.pop();
 
 
+//this unshift add element at start of array 
+// myArr.unshift(15)
+//same as pop but it removed the start element
+// myArr.shift(); 
+
 
 
 
@@ -29,6 +34,6 @@ console.log(myArr);
 
 /* Notes:-
  # In JS, Array can have mix data types like number, strings etc.
-
+ # Using unshift is bad practice
 */
 
