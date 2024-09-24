@@ -22,8 +22,27 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 const another_Array = [1, 2, 3, [4,5,6], 7, [6,7, [4,5]]]
 const real_another_array = another_Array.flat(Infinity)
 // giving dept as Infinity but we have to define exact dept in numbers
-console.log(real_another_array);
+//console.log(real_another_array);
 
 
+
+// ******** array during doing data-scrapping **********
+
+console.log(Array.isArray("Dishant")) //1st check is the array or not (by using 'isArray')
+
+// how to convert above string into array(by using from)
+console.log(Array.from("Dishant"))
+
+// Interesting Case of Array with objects, in line 37
+console.log(Array.from({name: "pal"})); //gives empty array
+
+
+
+let score1 = 100 
+let score2 = 200
+let score3 = 300
+
+
+console.log(Array.of(score1, score2, score3));
 
 
