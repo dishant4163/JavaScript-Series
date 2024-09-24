@@ -37,7 +37,7 @@ console.log(Array.from("Dishant"))
 
 // Interesting Case of Array with objects, in line 39
 console.log(Array.from({name: "pal"})); //gives empty array
-
+// for this situation define which keys, values ka array banana h ya pir nhi
 
 
 let score1 = 100 
