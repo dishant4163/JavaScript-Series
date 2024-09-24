@@ -1,6 +1,7 @@
 // Arrays
 
 const myArr = [0, 1, 2, 3, 4, 5]
+// in JS, Arrays are define using square brackets ' [ ] '
 const myHeros = ["ironMan", "Thor", "Venom"]
 
 // Another way to represent Array using new keyword
