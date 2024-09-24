@@ -33,7 +33,9 @@ console.log(Array.isArray("Dishant")) //1st check is the array or not (by using 
 // how to convert above string into array(by using from)
 console.log(Array.from("Dishant"))
 
-// Interesting Case of Array with objects, in line 37
+
+
+// Interesting Case of Array with objects, in line 39
 console.log(Array.from({name: "pal"})); //gives empty array
 
 
