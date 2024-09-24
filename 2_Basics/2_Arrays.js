@@ -19,7 +19,10 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 // console.log(all_new_heros);
 
 
-
+const another_Array = [1, 2, 3, [4,5,6], 7, [6,7, [4,5]]]
+const real_another_array = another_Array.flat(Infinity)
+// giving dept as Infinity but we have to define exact dept in numbers
+console.log(real_another_array);
 
 
 
