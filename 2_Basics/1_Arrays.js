@@ -74,7 +74,9 @@ console.log(mynewAr2);
  # Join operation in Array- it add all elements of an array into string & its typeof is String
 
  -> Slice:- original array remains same
- # it include strating, but excludes last part
+ # In Slice, it include strating, but excludes last part
  -> Splice:- original array get manipulates i.e remove the portions
+  # In Splice, it include strating & last part
+
 */
 
