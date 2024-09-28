@@ -15,13 +15,13 @@ const course = {
 
 const {courseInstructor} = course
 
-// console.log(courseInstructor);
+console.log(courseInstructor); // give result JS Master
 
 
 // De-structuring the object
 const {courseInstructor: instructor} = course
 
-console.log(instructor);
+console.log(instructor); // give result JS Master
 
 
 
@@ -29,14 +29,22 @@ console.log(instructor);
 
 // ******************* API(in JSON) *****************
 
-// eg of API but in JSON which is unname object
-{
-    "name": "dishant",
-    "courseName": "JS",
-    "price": "free"
-}
+// eg., of API but in JSON which is unname object
+
+// {
+//     "name": "dishant",
+//     "courseName": "JS",
+//     "price": "free"
+// }
 
 
+// eg., API in ARRAY formats
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
 
@@ -60,5 +68,9 @@ navbar(company = "pal")
 
 
   > JSON API is un-named Object.
-  > Which have key-value pairs but in string formats
+  > Which have key-value pairs but in string formats (line-> 34-38)
+  > Sometimes API is not gievn objects
+  > Sometimes API is also given in array format (line-> 43-47)
+
+ # There are some online tools to make JSON/API to JSON Formater to make it readable the api data.
 */
