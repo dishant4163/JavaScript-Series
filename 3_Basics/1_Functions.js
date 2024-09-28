@@ -28,8 +28,8 @@ function addTwoNumbers1(numbers1, numbers2){
 // addTwoNumbers(2, 7) // func. with arguments gives result
 
 // Storing Function in Variables
-const result = addTwoNumbers1(2, 7) //result 9
-console.log("Result : ", result); //gives 'undefine'
+const result1 = addTwoNumbers1(2, 7) //result 9
+console.log("Result : ", result1); //gives 'undefine'
 
 function addTwoNumbers(numbers1, numbers2){
     // let result = numbers1 + numbers2
