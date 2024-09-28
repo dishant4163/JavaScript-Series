@@ -12,10 +12,20 @@ function sayMyName() {
 }
 
 // how to call function
-// sayMyName() // 'sayMyName' is function ka reference
+// sayMyName() 
+// 'sayMyName' is function ka reference mtlb yhan function rahetha hai
 // '()' or ye hai function ka Executor
 
 
+
+// Function to Add 2 numbers
+function addTwoNumbers(numbers1, numbers2){
+    console.log(numbers1 + numbers2);
+}
+
+//calling Function
+addTwoNumbers() // func. with no arguments gives NAN
+addTwoNumbers(2, 7) // func. with arguments gives result
 
 
 
@@ -30,7 +40,8 @@ function sayMyName() {
 
  # }
 
- # 'keyword' 'function ka name' 'pir ()' us ke bad function ka 'scope/ya function ka defination {}'
+ # 'keyword' 'function ka name' 'pir () isme function ke parameters pass hote h' us ke bad function ka 'scope/ya function ka defination {}'
+ # or jab Function ko Call karathe h tab 'isko ()' Arguments bola jata h
 
 
 */
