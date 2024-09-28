@@ -27,7 +27,7 @@ console.log(instructor); // give result JS Master
 
 
 
-// ******************* API(in JSON) *****************
+// ****************** API(in JSON) *****************
 
 // eg., of API but in JSON which is unname object
 
