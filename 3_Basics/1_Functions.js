@@ -65,13 +65,18 @@ function loginUserMessage(username = "default user"){
 }
 
 // console.log(loginUserMessage("dishant"))
-console.log(loginUserMessage("pal")) //it over-write the default user
+// console.log(loginUserMessage("pal")) //it over-write the default user
 
 
 
 
 
+// for Shopping Cart problem
+function calculateCartPrice(num1) {
+    return num1
+}
 
+console.log(calculateCartPrice(2));
 
 
 
