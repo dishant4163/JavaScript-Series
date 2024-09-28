@@ -72,6 +72,13 @@ console.log(loginUserMessage("pal")) //it over-write the default user
 
 
 
+
+
+
+
+
+
+
 /* Functions Notes in JS
 
  1. Define/declaration structure of Function
