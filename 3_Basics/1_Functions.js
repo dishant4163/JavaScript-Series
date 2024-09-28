@@ -47,7 +47,25 @@ function addTwoNumbers(numbers1, numbers2){
 // Storing Function in Variables
 const result = addTwoNumbers(2, 7) //result 9
 
-console.log("Result : ", result); //gives 'defined result' 
+// console.log("Result : ", result); //gives 'defined result' 
+
+
+
+
+
+
+function loginUserMessage(username){
+    //checking is username is there or not
+    if(username === undefined) {
+        console.log("Plz enter a username");
+        return
+    }
+
+    return `${username} just logged in`
+}
+
+// console.log(loginUserMessage("dishant"))
+console.log(loginUserMessage())
 
 
 
