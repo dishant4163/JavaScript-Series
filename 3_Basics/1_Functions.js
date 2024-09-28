@@ -76,7 +76,7 @@ function calculateCartPrice(num1) {
     return num1
 }
 
-console.log(calculateCartPrice(2));
+console.log(calculateCartPrice(2))
 
 
 
@@ -96,5 +96,7 @@ console.log(calculateCartPrice(2));
 
 
  2. We store calling function in variables (line no. -> )
+
+ 3. For solving shopping cart-price problem we use (...)/spread operator aka known as rest operator
 
 */
