@@ -72,11 +72,42 @@ function loginUserMessage(username = "default user"){
 
 
 // for Shopping Cart problem
-function calculateCartPrice(num1) {
+function calculateCartPrice(val1, val2, ...num1) {
     return num1
 }
 
-console.log(calculateCartPrice(2))
+// console.log(calculateCartPrice(150, 200, 400, 2000))
+
+
+// declaring Object
+const user = {
+    username: "dishant",
+    prices: 399
+}
+
+
+
+// Passing Object in function
+function handleObject(anyObject) {
+    console.log(`Username is ${anyObject.username} & courseprice is ${anyObject.price}`);
+    
+}
+
+// calling function
+// handleObject(user)
+handleObject({ // another way to call object-function
+    username: "default-user",
+    price: 399
+})
+
+
+
+
+
+// Passing Arrays in Function
+
+
+
 
 
 
@@ -98,5 +129,10 @@ console.log(calculateCartPrice(2))
  2. We store calling function in variables (line no. -> )
 
  3. For solving shopping cart-price problem we use (...)/spread operator aka known as rest operator
+  # Acc. to use case we give name to '(...)' as spread or rest operator
 
+ 4. For passing multiple values in shop cart-price we rest operator
+  # & it add multiple values in array to give result
+
+ 
 */
