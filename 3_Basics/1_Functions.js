@@ -56,7 +56,7 @@ const result = addTwoNumbers(2, 7) //result 9
 
 function loginUserMessage(username){
     //checking is username is there or not
-    if(username === undefined) {
+    if(username === undefined) { // we can use 'if(!username)' 
         console.log("Plz enter a username");
         return
     }
