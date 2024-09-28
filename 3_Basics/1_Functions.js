@@ -54,7 +54,7 @@ const result = addTwoNumbers(2, 7) //result 9
 
 
 
-function loginUserMessage(username){
+function loginUserMessage(username = "default user"){
     //checking is username is there or not
     if(username === undefined) { // we can use 'if(!username)' 
         console.log("Plz enter a username");
@@ -65,7 +65,7 @@ function loginUserMessage(username){
 }
 
 // console.log(loginUserMessage("dishant"))
-console.log(loginUserMessage())
+console.log(loginUserMessage("pal")) //it over-write the default user
 
 
 
