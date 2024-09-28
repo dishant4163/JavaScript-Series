@@ -105,6 +105,14 @@ handleObject({ // another way to call object-function
 
 
 // Passing Arrays in Function  
+const myNewArray = [150, 200, 100, 600]
+
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+
+// console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([150, 200, 100, 600]));
 
 
 
