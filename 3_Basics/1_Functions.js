@@ -19,17 +19,17 @@ function sayMyName() {
 
 
 // Function to Add 2 numbers
-// function addTwoNumbers(numbers1, numbers2){
-//     console.log(numbers1 + numbers2);
-// }
+function addTwoNumbers1(numbers1, numbers2){
+    console.log(numbers1 + numbers2);
+}
 
 //calling Function
 // addTwoNumbers() // func. with no arguments gives NAN
 // addTwoNumbers(2, 7) // func. with arguments gives result
 
 // Storing Function in Variables
-// const result = addTwoNumbers(2, 7) //result 9
-// console.log("Result : ", result); //gives 'undefine'
+const result = addTwoNumbers1(2, 7) //result 9
+console.log("Result : ", result); //gives 'undefine'
 
 function addTwoNumbers(numbers1, numbers2){
     // let result = numbers1 + numbers2
