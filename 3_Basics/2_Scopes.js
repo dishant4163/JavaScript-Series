@@ -28,4 +28,6 @@ console.log(a);
 3. Anything written inside is called Block-Scope
 
 4. Anything written outside is Global-Scope
+
+5. Web-Browser, Inspect console me Scope aka 'Core Scope' alag hota h. Aur jab code environment me Node k through check krthe h tu global scope alag h 
 */
