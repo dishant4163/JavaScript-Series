@@ -8,6 +8,8 @@ let a = 300
 if(true) { // this e.g., of block scope
     let a = 10
     const b =20
+    console.log("INNER: ", a);
+    
 }
 
 console.log(a);
