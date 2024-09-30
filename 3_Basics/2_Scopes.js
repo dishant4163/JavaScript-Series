@@ -38,11 +38,17 @@ function one() {
 
 if (true) {
     const username = "dishantpal"
-    if (username == "dishantpal") {
-        const website = "github"
+    if (username === "dishantpal") {
+        const website = " github"
         console.log(username + website);
     }
+    //console.log(website);
+
 }
+
+// console.log(username);
+
+
 
 
 
