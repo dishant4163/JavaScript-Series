@@ -40,7 +40,7 @@ if (true) {
     const username = "dishantpal"
     if (username === "dishantpal") {
         const website = " github"
-        console.log(username + website);
+        // console.log(username + website);
     }
     //console.log(website);
 
@@ -54,6 +54,23 @@ if (true) {
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
+
+
+console.log(addone(5));
+
+function addone(num) {
+    return num + 1
+}
+
+
+
+// this below line codes -> 68 to 71 is an eg of hosting
+addTwo(7)
+const addTwo = function(num) {
+    return num + 2
+}
+
+
 
 
 
