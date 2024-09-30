@@ -33,9 +33,21 @@ function one() {
 
 }
 
-one()
+// one()
 
 
+if (true) {
+    const username = "dishantpal"
+    if (username == "dishantpal") {
+        const website = "github"
+        console.log(username + website);
+    }
+}
+
+
+
+
+// ++++++++++++++++++ interesting ++++++++++++++++++
 
 
 
