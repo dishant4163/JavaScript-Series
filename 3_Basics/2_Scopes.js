@@ -8,7 +8,7 @@ let a = 300
 if(true) { // this e.g., of block scope
     let a = 10
     const b =20
-    console.log("INNER: ", a);
+    //console.log("INNER: ", a);
     
 }
 
@@ -16,6 +16,24 @@ if(true) { // this e.g., of block scope
 // console.log(a);
 // console.log(b);
 // console.log(c);
+
+
+
+function one() {
+    const username = "dishant"
+
+    // this is eg of nested function
+    function two() {
+        const website = "github"
+        console.log(username);
+    }
+    // console.log(website)
+
+    two()
+
+}
+
+one()
 
 
 
