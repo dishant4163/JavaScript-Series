@@ -7,13 +7,20 @@ const user = {
 
     welcomeMessage: function() {
         console.log(`${this.username} , wlc to website`);
-        console.log(this);
+        //console.log(this);
         
     }
 }
 
 
+user.welcomeMessage()
+
+
+
+
+
+
 
 /*
-1. this keyword current contex ke bare me bata h
+1. this keyword current contex ke bare me bata h mtlb current contex ko 'refer' kartha h
 */
