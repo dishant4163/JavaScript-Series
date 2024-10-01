@@ -17,8 +17,13 @@ const user = {
 // user.username = "default user"
 // user.welcomeMessage()
 
-console.log(this); // for this code there is no refering contex in global so it will return empty object '{}'
+// console.log(this); // for this code there is no refering contex in global so it will return empty object '{}'
 
+
+
+
+
+// +++++++ Arrow Function ' () => '
 
 
 
