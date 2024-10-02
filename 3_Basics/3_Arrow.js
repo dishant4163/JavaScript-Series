@@ -63,11 +63,17 @@ const chai = () => {
 
 //Now, know about pure arrow function
 
-const addTwo = (num1, num2) => {
-    return num1 + num2
-}
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+// }
 
-console.log(addTwo(2, 7))
+
+
+//Another way 2 use of Arrow function as Implicit return
+
+const addTwo = (num1, num2) => num1 + num2
+
+console.log(addTwo(3, 7))
 
 
 
@@ -87,5 +93,6 @@ console.log(addTwo(2, 7))
 2. Browser k andar inspect me jab 'console.log(this)' karenge to whan pe empty object/{} as compare node terminal ki jagah 'window' as global object h
 
 
+3. Arrow function ko Implicit return kar sakthe mtlb bina parenthesis ke aur same line me
 
 */
