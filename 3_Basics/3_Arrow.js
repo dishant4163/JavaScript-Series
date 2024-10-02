@@ -25,22 +25,29 @@ const user = {
 
 // +++++++ Arrow Function ' () => '
 
-// function chai () {
+// function chai1 () {
 //     let username = "Dishant"
 //     console.log(this.username);
 // }
 
-// chai()
+// chai1() //return function values as 'undefined'
 
 
 
 
 // another way to declare function specailly arrow function k through
 
-const chai = function() {
-    let username = "Dishant"
-    console.log(this.username);
-}
+// const chai2 = function() {
+//     let username = "Dishant"
+//     console.log(this.username);
+// }
+
+// chai2() //return function values as 'undefined' 
+
+
+
+
+
 
 
 
