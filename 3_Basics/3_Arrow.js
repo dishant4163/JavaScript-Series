@@ -87,6 +87,9 @@ console.log(add2Num(0, 6));
 
 
 
+// const myArray = [1, 8, 0, 1, 2, 0 ,0, 2]
+
+// myArray.forEach(() => {}) // arrow function in loop
 
 
 
