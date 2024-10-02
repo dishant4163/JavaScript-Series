@@ -48,8 +48,14 @@ const user = {
 
 
 
+// Decalaring arrow function 
+const chai = () => {
+    let username = "Dishant"
+    console.log(this); // return empty object {}
+    console.log(this.username); //return undefined
+}
 
-
+chai() //this also return 'undefined' & empty obj {} value of function
 
 
 
