@@ -71,7 +71,9 @@ const chai = () => {
 
 //Another way 2 use of Arrow function as Implicit return
 
-const addTwo = (num1, num2) => num1 + num2
+// const addTwo = (num1, num2) => num1 + num2
+
+const addTwo = (num1, num2) => (num1 + num2)
 
 console.log(addTwo(3, 7))
 
@@ -93,6 +95,15 @@ console.log(addTwo(3, 7))
 2. Browser k andar inspect me jab 'console.log(this)' karenge to whan pe empty object/{} as compare node terminal ki jagah 'window' as global object h
 
 
-3. Arrow function ko Implicit return kar sakthe mtlb bina parenthesis ke aur same line me
+3. Arrow function ko Implicit return kar sakthe mtlb bina curly braces/{} ke aur same line me
+ # Agr Implicit me curly braces ke use kar tu to pir return keyword use karna mandatory h such as line no. 66 - 68
+ # use Parenthesis to return value such as line no 74 & 76.
+
+
+4. Explict ka mtlb jab function return keyword ka use with curly braces in arrow function
+
+NOTE:- 3 & 4 always used in React.
+
+
 
 */
