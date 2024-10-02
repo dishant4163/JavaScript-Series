@@ -55,8 +55,19 @@ const chai = () => {
     console.log(this.username); //return undefined
 }
 
-chai() //this also return 'undefined' & empty obj {} value of function
+// chai() //this also return 'undefined' & empty obj {} value of function
 
+
+
+
+
+//Now, know about pure arrow function
+
+const addTwo = (num1, num2) => {
+    return num1 + num2
+}
+
+console.log(addTwo(2, 7))
 
 
 
