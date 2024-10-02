@@ -73,9 +73,18 @@ const chai = () => {
 
 // const addTwo = (num1, num2) => num1 + num2
 
-const addTwo = (num1, num2) => (num1 + num2)
+// const addTwo = (num1, num2) => ( num1 + num2 )
 
-console.log(addTwo(3, 7))
+// console.log(addTwo(3, 7))
+
+
+
+
+// How to return Object in Arrow Function
+const add2Num = (no1, no2) => ({username: "dishantpal"}) // this is the way to wrap object in parenthesis in arrow function to return as object
+
+console.log(add2Num(0, 6));
+
 
 
 
