@@ -19,6 +19,7 @@
 //iss func->aurcode me iife invoked tu ho gaya h par isse pata nhi hai ki khana rukna h
 // tu isse rokne k liye chai wale func me iife ko end kar na hoga ';' laga ke such lineofcode no. 6
 
+// POINT TO PONDER
 // agr ek iife function h tu main func ko ';' se end kar
 // agr doo iife function h tu first 2 func ko ';' se end karo
 
