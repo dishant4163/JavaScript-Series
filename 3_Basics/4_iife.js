@@ -2,14 +2,26 @@
 
 
 (function chai(){
+    // this named IIFE
     console.log(`DB CONNECTED`);
-})()
-
-
+})();
 
 
 //global scope se functions ke andar pollution na ho 
 //tu iss waja se 'iife' ka use lete h
+
+
+( (name) => {
+    // unnamed iife with parameter passed as name
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('dishant')
+
+//iss func->aurcode me iife invoked tu ho gaya h par isse pata nhi hai ki khana rukna h
+// tu isse rokne k liye chai wale func me iife ko end kar na hoga ';' laga ke such lineofcode no. 6
+
+// agr ek iife function h tu main func ko ';' se end kar
+// agr doo iife function h tu first 2 func ko ';' se end karo
+
 
 
 
