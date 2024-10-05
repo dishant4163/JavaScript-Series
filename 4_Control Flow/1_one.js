@@ -23,9 +23,9 @@ if (temperature === 40) {
 /* JS Comparison Operators
 
 == 	   equal to
-===    equal value and equal type //aka konw as strci check bcz it also check the data type
+===    equal value and equal type //aka konw as strcit check/equal bcz it also check the data type
 != 	   not equal
-!==    not equal value or not equal type
+!==    not equal value or not equal type //aka strict check in Anti-Pattern
 > 	   greater than
 < 	   less than
 >= 	   greater than or equal to
