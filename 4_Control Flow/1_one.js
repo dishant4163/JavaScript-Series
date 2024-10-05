@@ -4,9 +4,17 @@
 // if
 
 const isUserLoggedIn = true
+const temperature = 40
 
-if (isUserLoggedIn) {
-    console.log("user loggedIn");
+// if (isUserLoggedIn) {
+//     console.log("user loggedIn");
+// }
+
+if (temperature === 40) {
+    console.log("Less than 50");
+}  else {
+    console.log("temperature is greter than 50");
+    
 }
 
 
@@ -15,7 +23,7 @@ if (isUserLoggedIn) {
 /* JS Comparison Operators
 
 == 	   equal to
-===    equal value and equal type
+===    equal value and equal type //aka konw as strci check bcz it also check the data type
 != 	   not equal
 !==    not equal value or not equal type
 > 	   greater than
