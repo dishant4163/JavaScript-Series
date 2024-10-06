@@ -63,7 +63,9 @@ if (balance > 150) console.log("test"), console.log("test2");
 
 /* Control/Logic Flow NOTES:-
 
+ # Implicit Scope-> in this all code written in line & mandatory to end with ';' and multiple values can be written by seprarting ','.
 
+ # 
 
 */
 
