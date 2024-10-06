@@ -32,7 +32,7 @@ const temperature = 40
 
 
 // shortHand Notation aka Implicit scope(bad practice)
-const balance = 1000
+// const balance = 1000
 
 // if (balance > 150) console.log("test"), console.log("test2");
 
@@ -40,15 +40,15 @@ const balance = 1000
 
 // NESTING Conditions in Logic-Flow
 
-if (balance < 500) {
-    console.log("less than 500");
-} else if (balance < 750) {
-    console.log("less than 750");
-} else if (balance < 900) {
-    console.log("less than 750");
-} else {
-    console.log("less than 1200");
-}
+// if (balance < 500) {
+//     console.log("less than 500");
+// } else if (balance < 750) {
+//     console.log("less than 750");
+// } else if (balance < 900) {
+//     console.log("less than 750");
+// } else {
+//     console.log("less than 1200");
+// }
 
 
 
