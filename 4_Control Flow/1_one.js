@@ -18,16 +18,24 @@ const temperature = 40
 
 
 // Quite Interesting thing in js & it is related to scope/{ }
-const score = 420
+// const score = 420
 
-if(score > 150) {
-    const power = "fly"
-    console.log(`User power: ${power}`); //or ye scope k andar h or inka alag scope count hota h
-    // agr yhan const ki jagah 'var' which is bad pratice 
-    // but ye var scope k bhara bhi access hota
-}
+// if(score > 150) {
+//     const power = "fly"
+//     console.log(`User power: ${power}`); //or ye scope k andar h or inka alag scope count hota h
+//     // agr yhan const ki jagah 'var' which is bad pratice 
+//     // but ye var scope k bhara bhi access hota
+// }
 
-console.log(`User power: ${power}`); //ye scope bhara h tu iska kamm khatam
+// console.log(`User power: ${power}`); //ye scope bhara h tu iska kamm khatam
+
+
+
+// shortHand Notation aka Implicit scope(bad practice)
+const balance = 1000
+
+if (balance > 150) console.log("test"), console.log("test2");
+
 
 
 
