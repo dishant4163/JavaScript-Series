@@ -56,9 +56,14 @@ const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard) {
+// both condition met to buy item so we use "&&"
+if (userLoggedIn && debitCard && 2 == 3) {
     console.log("Allow to order food :-) ");
-    
+}
+
+// use any acc to login so we use 'or / ||'
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User logged In");
 }
 
 
