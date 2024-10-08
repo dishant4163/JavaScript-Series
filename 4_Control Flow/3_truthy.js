@@ -14,5 +14,11 @@ if (userEmail) {
 
 /* NOtes on Truthy & Falsy values
 
+ 1. Falsy Values in JS:
+ #  false, 0, -0, BigInt 0n, "", null, undefined, NaN
+
+ 2. Truthy Values in JS
+ #  "0", 'false', " ", [], {}, function(){}
+
 
 */
