@@ -1,6 +1,6 @@
 // truthy & falsy in JS
 
-const userEmail = "user@email.ai"
+const userEmail = [] //"user@email.ai"
 
 if (userEmail) {
     console.log("Got user email");
@@ -13,7 +13,15 @@ if (userEmail) {
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
 //truthy values
-// "0", 'false', " ", [], {}, function(){}
+// "0", 'false', " "/str with space, []/empt arr, {}/empty obj, function(){}/this is called empty function
+
+
+
+// if (userEmail.length === 0) {
+//     console.log("Array is empty");
+// }
+
+
 
 
 
