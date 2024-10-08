@@ -37,6 +37,24 @@ if (Object.keys(emptyObj).length === 0) { //obj works as key-value pairs
 
 
 
+// **** Nullish Coalescing Operator in JS *****
+
+// Nullish Coalescing Operator (??): null undefined
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 15
+val1 = null ?? 18 ?? 27
+
+console.log(val1);
+
+
+
+
+
+
+
 
 
 
@@ -50,5 +68,18 @@ if (Object.keys(emptyObj).length === 0) { //obj works as key-value pairs
  2. Truthy Values in JS
  #  "0", 'false', " ", [], {}, function(){}
 
+
+  3. In inspect console (for general basic)
+ # false == 0 then   O/p is: true
+ # false == '' then  O/p is: true
+ # 0 == ''  then     O/p is: true
+
+
+  4. Nullish Coalescing Operator (??): null undefined
+ # It have 2 keywords:- i) null, ii) undefined
+
+
+
+true 
 
 */
