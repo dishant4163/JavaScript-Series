@@ -31,7 +31,6 @@ const emptyObj = {}
 
 if (Object.keys(emptyObj).length === 0) { //obj works as key-value pairs
     console.log("Object is empty");
-    
 }
 
 
