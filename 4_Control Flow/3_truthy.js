@@ -17,11 +17,22 @@ if (userEmail) {
 
 
 
+
+// Empty Array check via trythy & falsy
 // if (userEmail.length === 0) {
 //     console.log("Array is empty");
 // }
 
 
+
+
+// Empty Object check via trythy & falsy
+const emptyObj = {}
+
+if (Object.keys(emptyObj).length === 0) { //obj works as key-value pairs
+    console.log("Object is empty");
+    
+}
 
 
 
