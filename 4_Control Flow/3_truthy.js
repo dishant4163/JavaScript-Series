@@ -56,7 +56,7 @@ console.log(val1);
 // conditionIsToBeCheck ? true : false
 
 const teaPrice = 150
-teaPrice >= 100 ? console.log("less than 100") : console.log("more than 100");
+teaPrice <= 100 ? console.log("less than 100") : console.log("more than 100");
 
 
 
