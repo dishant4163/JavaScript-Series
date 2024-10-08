@@ -51,6 +51,13 @@ console.log(val1);
 
 
 
+// Terniary Operator
+
+// conditionIsToBeCheck ? true : false
+
+const teaPrice = 150
+teaPrice >= 100 ? console.log("less than 100") : console.log("more than 100");
+
 
 
 
@@ -79,7 +86,7 @@ console.log(val1);
  # It have 2 keywords:- i) null, ii) undefined
 
 
-
-true 
+   5.  NOTE*****
+ # Terniary Operator(?) & Nullish Coalescing Operator(??) both are different things
 
 */
