@@ -36,10 +36,20 @@ for (let ind = 0; ind < myArr.length; ind++) {
 
 // break and continu
 
+// for (let ind = 1; ind <= 10; ind++) {
+//     if (ind == 5) {
+//         console.log(`Detected 5`);
+//         break
+//     }
+//     console.log(`Value of i is ${ind}`);
+// }
+
+
+
 for (let ind = 1; ind <= 10; ind++) {
     if (ind == 5) {
         console.log(`Detected 5`);
-        break
+        continue
     }
     console.log(`Value of i is ${ind}`);
 }
