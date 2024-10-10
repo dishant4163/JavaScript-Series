@@ -4,7 +4,7 @@
 let index = 0
 
 while (index <= 10) {
-    // console.log(`Value of index is ${index}`);
+    console.log(`Value of index is ${index}`);
     index = index + 2
 }
 
@@ -14,13 +14,18 @@ let myAr = ["ironMan", "Black Panther", "Thor"]
 
 let arr = 0
 while (arr < myAr.length) {
-    // console.log(`Value is ${myAr[arr]}`);
+    console.log(`Value is ${myAr[arr]}`);
     arr = arr + 1 // move to next
 }
 
 
 
+let score = 11
 
+do {
+    console.log(`Score is ${score}`);
+    score++
+} while (score <= 10);
 
 
 
