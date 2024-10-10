@@ -14,8 +14,14 @@ let myAr = ["ironMan", "Black Panther", "Thor"]
 
 let arr = 0
 while (arr < myAr.length) {
-    console.log(`Value is ${myAr[arr]}`);
+    // console.log(`Value is ${myAr[arr]}`);
     arr = arr + 1 // move to next
 }
+
+
+
+
+
+
 
 
