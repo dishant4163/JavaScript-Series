@@ -24,6 +24,19 @@ for (const greet of greetings) {
 
 
 
+// MAPS 
+
+const map = new Map()
+map.set('IN', "India")
+map.set('USA', "United States of America")
+map.set('Fr', "France")
+map.set('UK', "United Kingdom")
+
+console.log(map);
+
+
+
+
 
 
 
@@ -31,6 +44,10 @@ for (const greet of greetings) {
 /* NOTES
 
  1. These type of loops in JS is Array & Object Specific.
+
+ 2. In JS, Maps are same as Array which have Uniques Values init.
+
+ 3. Map is a Object itself. And hold Keys-Value pairs.
 
 
 */
