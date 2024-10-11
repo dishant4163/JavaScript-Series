@@ -31,10 +31,19 @@ map.set('IN', "India")
 map.set('USA', "United States of America")
 map.set('Fr', "France")
 map.set('UK', "United Kingdom")
+map.set('IN', "India")
 
-console.log(map);
+
+// console.log(map);
 
 
+for (const [key, value] of map) { // array de-structruing 
+    //console.log(key, ':- ', value);
+}
+
+
+
+// On Object
 
 
 
