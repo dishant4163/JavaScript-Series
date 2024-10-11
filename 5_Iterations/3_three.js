@@ -44,6 +44,16 @@ for (const [key, value] of map) { // array de-structruing
 
 
 // On Object
+const myObj = {
+    game1: 'NFS',
+    game2: 'Tekken 3'
+}
+
+
+
+// for (const [key, value] of myObj) {
+//     console.log(key, ':- ', value);
+// }
 
 
 
@@ -58,6 +68,9 @@ for (const [key, value] of map) { // array de-structruing
 
  3. Map is a Object itself. And hold Keys-Value pairs.
 
+ 4. Same method cannot be used on Object as on Maps for 'forof' loop.
+
+ 5. For objects have different & another method to iterate using loops.
 
 */
 
