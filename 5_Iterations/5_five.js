@@ -30,6 +30,14 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 
+// coding.forEach( (item, index, arr) => {
+//     console.log(item, index, arr);
+    
+// })
+
+
+
+
 
 //const myCoding = 
 
@@ -41,6 +49,9 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 /*
 1. callbackfn:-> this function didn't have name 
+
+ 2. Arrow function can have mupltiple parameters and values to hold & their acces too.
+
 
 */
 
