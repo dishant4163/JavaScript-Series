@@ -38,8 +38,29 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
 
 
+// Array holding multiple objects
+const myCoding = [
+    {
+        languageName: "javascript",
+        languageFileName: "js"
+    },
+    {
+        languageName: "java",
+        languageFileName: "java"
+    },
+    {
+        languageName: "python",
+        languageFileName: "py"
+    }
+]
 
-//const myCoding = 
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName);
+})
+
+
+
 
 
 
@@ -52,6 +73,6 @@ const coding = ["js", "ruby", "java", "python", "cpp"]
 
  2. Arrow function can have mupltiple parameters and values to hold & their acces too.
 
-
+ 3. Array can hold mupltiple object & which can acces via foreach loop
 */
 
