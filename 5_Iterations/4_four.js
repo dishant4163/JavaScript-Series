@@ -29,10 +29,30 @@ for (const key in programming) {
 
 
 
+// MAPS 
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+// map.set('UK', "United Kingdom")
+// map.set('IN', "India")
+
+// for (const key in map) {
+//     console.log(key);
+// }
+
+
+
+
+
+
+
 
 /*
 
-1. Arrays ki aayegi agar hum forin loop ka use karenge tu.
-2. Aur arrays key start hoti hai 0 se till the last value in array.
+ 1. Arrays ki aayegi agar hum forin loop ka use karenge tu.
+ 2. Aur arrays key start hoti hai 0 se till the last value in array.
 
+ 3. Map is not iterateable on forin there is another way or condition for iterations on map.
 */
