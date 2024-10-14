@@ -36,15 +36,15 @@ const myNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 
-const newNum2 = []
+// const newNum2 = []
 
-myNum.forEach( (num) => {
-    if (num > 4) {
-        newNum2.push(num)
-    }
-} )
+// myNum.forEach( (num) => {
+//     if (num > 4) {
+//         newNum2.push(num)
+//     }
+// } )
 
-console.log(newNum2);
+// console.log(newNum2);
 
 
 
