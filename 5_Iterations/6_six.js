@@ -56,6 +56,7 @@ const myNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 
+
 /* NOTES
  1. forEach koi bhi value return nhi kartha sirf particular callbackfn ka 'undefined' show kartha h manually return karne k bad bhi.
 
