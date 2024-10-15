@@ -31,6 +31,7 @@ const nuNums = myNumbers.map( (Num) => {
 
 
 
+
 // const codeNum = [1, 2, 3, 4, 5, 6, 7]
 
 // const values = codeNum.forEach( (item) => {
@@ -64,4 +65,6 @@ const nuNums = myNumbers.map( (Num) => {
 
  7. forEach also use with map for getting map values
 
+
+ 8. filter automatically filter kar detha h par as such map mein aise kuch nhi h
 */
