@@ -1,4 +1,4 @@
-// Filter map and Reduce in javascript 
+// Filter javascript 
 
 
 // const coding = ["js", "ruby", "java", "python", "cpp"]
@@ -86,9 +86,12 @@ console.log(userBooks);
  2. for the above problem in pt. 1, we have filter
 
  3. Agar hum filter me scope/{} start kardenge tu  humhe pir return karna padega
+
  4. Agr hum scope/{} open nhi kar h tu direct hi parenthese () ka istamal kar the h tu filter mein direct value return kar denge 
 
  5.  Pt. 3 & 4 is can be done with forEach loop in line of code 40 to 
 
+
+  > forEach loop each value detha h loop k andar k items ki(forEach, to each)
 */
 
