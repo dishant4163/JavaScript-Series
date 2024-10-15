@@ -22,8 +22,21 @@ const nuNums = myNumbers.map( (Num) => {
 
 
 
+// Chaining in map | JS
+
+//eg., of chaining in it can done with both map or filter
+// const newN= myNumbers.map().map().filter 
 
 
+
+const newNums2 = myNumbers
+        .map( (nos) => nos * 10)
+        .map( (nos) => nos + 7)
+        .map( (nos) => nos - 2)
+        .filter( (nos) => nos >= 40)
+
+
+console.log(newNums2);
 
 
 
@@ -67,4 +80,8 @@ const nuNums = myNumbers.map( (Num) => {
 
 
  8. filter automatically filter kar detha h par as such map mein aise kuch nhi h
+
+
+   > NOTE
+ 9. If in chaining, the 1st chain method pass the result to next chain method
 */
