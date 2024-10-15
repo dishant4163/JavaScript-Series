@@ -25,6 +25,28 @@ const nuNums = myNumbers.map( (Num) => {
 
 
 
+
+
+
+
+
+
+// const codeNum = [1, 2, 3, 4, 5, 6, 7]
+
+// const values = codeNum.forEach( (item) => {
+//     console.log(item);
+//     return item //forEach return type is undefined
+// })
+
+// console.log(values);
+
+
+
+
+
+
+
+
 /* NOTES
 
  1. map bhi callbackfn hai in js.
@@ -39,5 +61,7 @@ const nuNums = myNumbers.map( (Num) => {
  5. agr {}/scope kiya map tu return keyword ka use karna hoga mtlb manually return karna hoga
 
  6. agr sir () ke andar values return ki mtlb bina {}/scope open kiye tu map automatically value return kara dega
+
+ 7. forEach also use with map for getting map values
 
 */
