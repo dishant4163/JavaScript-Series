@@ -42,10 +42,10 @@ const shoppingKart = [
 ]
 
 
-const priceToPay = shoppingKart.reduce( (acc, curVal) => acc + curVal, 0)
+const priceToPay = shoppingKart.reduce( (acc, item) => acc + item.price, 0)
 
 
-console.log(priceToPay);
+console.log(priceToPay); // price to pay: 33496
 
 
 
