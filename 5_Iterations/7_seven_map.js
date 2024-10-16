@@ -2,7 +2,7 @@
 
 const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNums = myNumbers.map( (num) => num + 10) //no use of scope/{}, so return direct automatically
+const newNums = myNumbers.map((num) => num + 10) //no use of scope/{}, so return direct automatically
 
 
 // console.log(newNums);
@@ -10,9 +10,9 @@ const newNums = myNumbers.map( (num) => num + 10) //no use of scope/{}, so retur
 
 
 //use of scope/{} in map, therefore return manually
-const nuNums = myNumbers.map( (Num) => {
-    // Num + 20 //gives undefined for all values
-    return Num + 20
+const nuNums = myNumbers.map((Num) => {
+  // Num + 20 //gives undefined for all values
+  return Num + 20
 })
 
 // console.log(nuNums);
@@ -30,10 +30,10 @@ const nuNums = myNumbers.map( (Num) => {
 
 
 const newNums2 = myNumbers
-        .map( (nos) => nos * 10)
-        .map( (nos) => nos + 7)
-        .map( (nos) => nos - 2)
-        .filter( (nos) => nos >= 40)
+  .map((nos) => nos * 10)
+  .map((nos) => nos + 7)
+  .map((nos) => nos - 2)
+  .filter((nos) => nos >= 40)
 
 
 console.log(newNums2);
