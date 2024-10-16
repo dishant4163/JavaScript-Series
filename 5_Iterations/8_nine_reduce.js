@@ -14,7 +14,40 @@ const myNums = [1, 2, 3]
 const myTotal = myNums.reduce( (acc, curval) => acc + curval, 3) // 3 is given as accumulator value
 
 
-console.log(myTotal); //output: 6 other outpur: 9
+// console.log(myTotal); //output: 6 other outpur: 9
+
+
+
+
+
+//shopping kart problem with handle by 'reduce'
+
+const shoppingKart = [
+    {
+        itemname: "js course",
+        price: 1999
+    },
+    {
+        itemname: "py course",
+        price: 1499
+    },
+    {
+        itemname: "dsa course",
+        price: 9999
+    },
+    {
+        itemname: "web-dev course",
+        price: 19999
+    }
+]
+
+
+const priceToPay = shoppingKart.reduce( (acc, curVal) => acc + curVal, 0)
+
+
+console.log(priceToPay);
+
+
 
 
 
