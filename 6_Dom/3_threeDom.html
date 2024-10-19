@@ -6,9 +6,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM | Lec-3 Chai aur Code</title>
 </head>
-<body>
+<body style="background-color: #212121; color: #fff;">
     
 </body>
+
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generate title")
+    div.style.backgroundColor = "orange"
+    div.style.padding = "12px"
+    div.style.borderRadius = "18px"
+    // div.innerHTML = "Chai aur Code"
+    const addText = document.createTextNode("Chai aur Code")
+    div.append(addText)
+
+    document.body.appendChild(div)
+
+</script>
+
 </html>
