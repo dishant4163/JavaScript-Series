@@ -11,6 +11,7 @@
 </head>
 <body style="background-color: #212121; color: #fff;">
     <div class="parent">
+        <!-- This is a Comment for check NodeList in DOM inspect -->
         <div class="day">Monday</div>
         <div class="day">Tuesday</div>
         <div class="day">Wednesday</div>
@@ -32,7 +33,12 @@
     // console.log(parent.lastElementChild);
 
     const dayOne = document.querySelector('.day')
-    console.log(dayOne);
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+
+
+    console.log("NODES: ", parent.childNodes); //nodelist
 
 </script>
 
