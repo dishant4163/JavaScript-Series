@@ -16,13 +16,43 @@
 </body>
 
 <script>
+// like brute method 
     function addLanguage(langName) {
         const li = document.createElement('li');
-        li.innerHTML = `${langName}`
+        li.innerHTML = `${langName}` 
+        // this innerHTML travers whole dom tree again & again for adding individual value multiple time
+        // this bad practice too use & worst for big & complex project
         document.querySelector('.language').appendChild(li)
     }
     addLanguage("Typescript")
     addLanguage("Java")
+
+
+// this below practice is optimized quite above
+    function addOptimisedLanguage(langName) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addOptimisedLanguage("golang")
+
+    console.log(secondLang); //check this line in Inspect
+
+    //EDITing the values
+    const secondLang = document.querySelector("li:nth-child(2)")
+    // secondLang.innerHTML = "Mojo" //this bad practice of using innerHTML but sometimes needed for small project or during deadlines :-) 
+
+    // another way instead of innerHTML
+    
+
+//NOTE for Knowledge
+// 1. textContent or bi jada kharab h innerHTML se.
+// 2. yhan seekne k liye textContent ka use kiya gaya h. And there are some things to optimized the project
+
+
+
+
+
 
 </script>
 
