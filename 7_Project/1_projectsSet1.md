@@ -10,6 +10,8 @@
 ## Project-1 Soln Color Changer 🔥
 
 ```javascript
+console.log("dishant")
+
 const buttons = document.querySelectorAll('.button');
 const body = document.querySelector('body');
 
