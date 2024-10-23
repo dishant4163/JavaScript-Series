@@ -2,8 +2,7 @@
 
 # Projects related to DOM
 
-## Project Link
-[click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
+## Project Link -> [click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 
 # Projects Code Solutions
 
@@ -74,6 +73,14 @@ form.addEventListener('submit', function (e) {
     }
   }
 });
+
+```
+
+
+
+## Project-3 Soln Digital Clock 🕒
+
+```javascript
 
 ```
 
