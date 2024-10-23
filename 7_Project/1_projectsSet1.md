@@ -78,5 +78,22 @@ form.addEventListener('submit', function (e) {
 
 
 
+## Project-3 Soln Digital Clock 🕒
 
+```javascript
+const clock = document.getElementById('clock'); //another method
+
+//const clock = document.querySelector('#clock')
+
+setInterval(function () {
+  let date = new Date();
+
+  //humhe console mein time run nhi kar h 
+  //console.log(date.toLocaleTimeString());
+
+  //humhe document update karna tha har-seconds mein time run karna h
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000); //this syntax pt. to be noted, 1000 in miliseconds
+
+```
 
