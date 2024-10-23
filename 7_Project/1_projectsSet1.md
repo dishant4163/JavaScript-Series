@@ -78,9 +78,5 @@ form.addEventListener('submit', function (e) {
 
 
 
-## Project-3 Soln Digital Clock 🕒
 
-```javascript
-
-```
 
