@@ -146,7 +146,7 @@ function validateGuess(guess) {
     //if gameis over bcz only 10 attempts to do
     if (numGuess === 11) {
       cleanUpGuess(guess);
-      displayMessage(`Game Over :-). Random number was ${randomNumber}`);
+      displayMessage(`Game Over :-) Random number was ${randomNumber}`);
       endGame();
     } else {
       cleanUpGuess(guess);
