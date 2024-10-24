@@ -103,5 +103,107 @@ setInterval(function () {
 
 ```javascript
 
+//generating random number
+let randomNumber = parseInt(Math.random() * 100 + 1);
+// +1 for not getting zero
+// parseInt => for not getting decimal values
+
+const submit = document.querySelector('#subt');
+const userInput = document.querySelector('#guessField');
+const guessSlot = document.querySelector('.guesses');
+const remainingSlot = document.querySelector('.lastResult');
+const lowOrHigh = document.querySelector('.lowOrHi');
+const startOver = document.querySelector('.resultParas');
+
+const para = document.createElement('para');
+
+let prevGuess = [];
+let numGuess = 1;
+
+let playGame = true;
+
+if (playGame) {
+  submit.addEventListener('click', function (e) {
+    //prevent values to get push on server from form bcz
+    //we need to be used here
+    e.preventDefault();
+    const guess = parseInt(userInput.value);
+    console.log(guess);
+    validateGuess(guess); //passing values to next
+  });
+}
+
+function validateGuess(guess) {
+  if (isNaN(guess)) {
+    alert('Plz enter a valid number');
+  } else if (guess < 1) {
+    alert('Plz enter a number more than 1');
+  } else if (guess > 100) {
+    alert('Plz enter a number less than 100');
+  } else {
+    //push guessed number in array
+    prevGuess.push(guess);
+    //if gameis over bcz only 10 attempts to do
+    if (numGuess === 11) {
+      cleanUpGuess(guess);
+      displayMessage(`Game Over :-). Random number was ${randomNumber}`);
+      endGame();
+    } else {
+      cleanUpGuess(guess);
+      checkGuess(guess);
+    }
+  }
+}
+
+function checkGuess(guess) {
+  if (guess === randomNumber) {
+    displayMessage(`You guessed right`);
+    endGame();
+  } else if (guess < randomNumber) {
+    displayMessage(`Number is Tooo Low`);
+  } else if (guess > randomNumber) {
+    displayMessage(`Number is Tooo High`);
+  }
+}
+
+function cleanUpGuess(guess) {
+  userInput.value = ''; //cleanUp vaues
+  guessSlot.innerHTML += `${guess}  `; //adding values
+  numGuess++; //moves to next value
+  //find & changing remaining values
+  remainingSlot.innerHTML = `${11 - numGuess}`;
+}
+
+function displayMessage(message) {
+  lowOrHigh.innerHTML = `<h2>${message}</h2>`;
+}
+
+function endGame() {
+  userInput.value = ''; //clear the input fields/values
+
+  //user cannot add more values while ending game
+  userInput.setAttribute('disabled', ''); //diabled works in key-value pair for ending game
+  para.classList.add('button'); //start bttn
+  para.innerHTML = `<h2 id="newGame">Start new Game :-)</h2>`;
+  startOver.appendChild(para); //adding new child & para in gloabla scope
+  playGame = false;
+  newGame();
+}
+
+function newGame() {
+  const newGameButton = document.querySelector('#newGame');
+  newGameButton.addEventListener('click', function (e) {
+    randomNumber = parseInt(Math.random() * 100 + 1);
+    prevGuess = []; //previous values get reset
+    numGuess = 1;
+    guessSlot.innerHTML = '';
+    remaining.innerHTML = `${11 - numGuess} `;
+    userInput.removeAttribute('disabled');
+    startOver.removeChild(para);
+
+    playGame = true;
+  });
+}
+
 ```
 
