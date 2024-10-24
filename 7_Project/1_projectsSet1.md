@@ -112,10 +112,10 @@ const submit = document.querySelector('#subt');
 const userInput = document.querySelector('#guessField');
 const guessSlot = document.querySelector('.guesses');
 const remainingSlot = document.querySelector('.lastResult');
-const lowOrHigh = document.querySelector('.lowOrHi');
+const lowOrHi = document.querySelector('.lowOrHi');
 const startOver = document.querySelector('.resultParas');
 
-const para = document.createElement('para');
+const p = document.createElement('p');
 
 let prevGuess = [];
 let numGuess = 1;
@@ -157,7 +157,7 @@ function validateGuess(guess) {
 
 function checkGuess(guess) {
   if (guess === randomNumber) {
-    displayMessage(`You guessed right`);
+    displayMessage(`You guessed it right`);
     endGame();
   } else if (guess < randomNumber) {
     displayMessage(`Number is Tooo Low`);
@@ -175,7 +175,7 @@ function cleanUpGuess(guess) {
 }
 
 function displayMessage(message) {
-  lowOrHigh.innerHTML = `<h2>${message}</h2>`;
+  lowOrHi.innerHTML = `<h2>${message}</h2>`;
 }
 
 function endGame() {
@@ -183,9 +183,9 @@ function endGame() {
 
   //user cannot add more values while ending game
   userInput.setAttribute('disabled', ''); //diabled works in key-value pair for ending game
-  para.classList.add('button'); //start bttn
-  para.innerHTML = `<h2 id="newGame">Start new Game :-)</h2>`;
-  startOver.appendChild(para); //adding new child & para in gloabla scope
+  p.classList.add('button'); //start bttn
+  p.innerHTML = `<h2 id="newGame">Start new Game</h2>`;
+  startOver.appendChild(p); //adding new child & para in gloabla scope
   playGame = false;
   newGame();
 }
@@ -197,13 +197,14 @@ function newGame() {
     prevGuess = []; //previous values get reset
     numGuess = 1;
     guessSlot.innerHTML = '';
-    remaining.innerHTML = `${11 - numGuess} `;
+    remainingSlot.innerHTML = `${11 - numGuess} `;
     userInput.removeAttribute('disabled');
-    startOver.removeChild(para);
+    startOver.removeChild(p);
 
     playGame = true;
   });
 }
+
 
 ```
 
