@@ -1,0 +1,46 @@
+<!--  Time Functions | Events in JS    -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #414141; color:rgb(216, 126, 14)">
+    <h1>Chai aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayDate = function(str){
+        console.log(str, Date.now())
+    }
+
+    let intervalBttns;
+    //startButton to start printing printing
+    document.querySelector('#start').addEventListener('click', function() {
+        intervalBttns = setInterval(sayDate, 1000, 'Start Printing ')
+    })
+
+    //stopButtons to stop printing 
+    document.querySelector('#stop').addEventListener('click', function() {
+        clearInterval(intervalBttns)
+        console.log("Stopped Printing")
+    })
+
+</script>
+</html>
+
+
+
+
+<!-- NOTES
+
+ # SetTimeout(function/function reference,milliseconds) 
+ # ClearTimeout(variable which hold the reference of settimeout)
+ # SetInterval(function /functiom reference, milisecond) - repeat until we clear it. 
+ # ClearInterval(reverence of function)
+
+-->
