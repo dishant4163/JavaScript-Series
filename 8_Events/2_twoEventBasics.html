@@ -8,11 +8,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body style="background-color: #414141; color: #fff">
     <h1>Chai aur Code</h1>
     <button id="stop">Stop</button>
 </body>
 <script>
-    setTimeout()
+    const sayMyName = function() {
+        console.log("Dishant");
+    }
+
+    const changeText = function() {
+        document.querySelector('h1').innerHTML = "JS Series"
+    }
+
+
+    const changeMe = setTimeout(changeText, 2000) //here only give function reference not give function execution/()
+
+    document.querySelector('#stop').addEventListener('click', function() {
+        clearTimeout(changeMe)
+        console.log("STOPPED") 
+    })
+
+
 </script>
 </html>
