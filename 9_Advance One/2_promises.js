@@ -28,3 +28,6 @@ new Promise(function(resolve, reject){
 }).then(function(){
     console.log("Async 2 resolved")
 })
+
+
+
