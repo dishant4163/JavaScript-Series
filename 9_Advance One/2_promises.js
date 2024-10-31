@@ -2,7 +2,7 @@
 
 //promis create
 const promiseOne = new Promise(function(resolve, reject){
-    //Do an Async task
+    //Do an Async task take time to load
     //DB calls, cryptography, network related
     setTimeout(function(){
         console.log('Async task is Complete');
@@ -105,3 +105,37 @@ async function consumePromiseFive(){
 
 
 consumePromiseFive()
+
+
+
+
+
+
+// async function getAllUsers(){
+//     try {
+//         //fetch take time to load so we do wait by doing 'await'
+//         const response = await fetch('https://jsonplaceholder.typicode.com/users')
+
+//         const data = await response.json() //converting resopnse string data into json form
+//         console.log(data);
+//     } catch (error) {
+//         console.log("E: ", error);
+//     }
+// }
+
+// getAllUsers()
+
+
+
+
+
+// same above method with dot(.)then .catch
+fetch('https://jsonplaceholder.typicode.com/users')
+.then((response) => {
+    return response.json()
+})
+.then((data) => {
+    console.log(data);
+})
+
+
