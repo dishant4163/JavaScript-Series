@@ -130,7 +130,7 @@ consumePromiseFive()
 
 
 // same above method with dot(.)then .catch
-fetch('https://api.github.com/users/hiteshchoudhary')
+fetch('https://api.github.com/users/dishant4163')
 .then((response) => {
     return response.json()
 })
