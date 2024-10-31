@@ -137,5 +137,9 @@ fetch('https://jsonplaceholder.typicode.com/users')
 .then((data) => {
     console.log(data);
 })
+.catch((error) => console.log(error))
 
 
+
+// promise.all
+// ye samasyiha h tu iss ke liye padhna padega
