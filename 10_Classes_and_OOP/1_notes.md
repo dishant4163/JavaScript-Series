@@ -9,3 +9,6 @@
     -> Classes feature was introduced with ECMAScript 2015 specification (referred to as ES6). However, imp. to note that JS primarily a prototype-based language.
 
     -> Its classes are primarily syntactic sugar over.
+
+    -> In other words, it provides a more familiar syntax for developers coming form class-based languages such as Java or C++.
+
