@@ -1,6 +1,16 @@
 # JavaScript & classes
 
-<!-- Pt. to Ponder -->
+## OOP
+-  In JavaScript is a paradigm(in smiple structure or style) that allows you to structure your code using objects, which can contain both data and functions. 
+
+## Object
+- It is a collection of properties and methods.
+
+
+
+______________________________
+
+-> Pt. to Ponder
 
 1. Does JS have classes?
 
