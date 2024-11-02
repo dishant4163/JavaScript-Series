@@ -23,25 +23,25 @@ Object literal => It is way to define an object using a simple, concise syntax.
 ## 4 Pillars
 #### The four pillars of Object-Oriented Programming (OOP) in JavaScript are Encapsulation, Abstraction, Inheritance, and Polymorphism. Here’s a simple breakdown of each pillar:
 
-## 1. Encapsulation
+### 1. Encapsulation
 
 - Definition: Encapsulation is the bundling of data (properties) and methods (functions) that operate on the data into a single unit or object.
 - Key Point: It restricts direct access to some of an object's components, which helps protect the internal state of the object.
 - Example: Using private properties (like #balance) in a class to control access to sensitive data.
 
-## 2. Abstraction
+### 2. Abstraction
 
 - Definition: Abstraction involves hiding the complex implementation details and exposing only the necessary parts of an object.
 - Key Point: It simplifies interactions with complex systems, allowing users to focus on the interface rather than the underlying complexity.
 - Example: A car class that has methods like start() and stop(), but the internal workings of the engine are hidden from the user.
 
-## 3. Inheritance
+### 3. Inheritance
 
 - Definition: Inheritance allows one class (child or derived class) to inherit properties and methods from another class (parent or base class).
 - Key Point: It promotes code reuse and establishes a hierarchical relationship between classes.
 - Example: A Vehicle class that has basic properties, while a Car class inherits from it and adds specific features.
 
-## 4. Polymorphism
+### 4. Polymorphism
 
 - Definition: Polymorphism allows objects of different classes to be treated as objects of a common superclass. It enables a single interface to represent different underlying forms (data types).
 
