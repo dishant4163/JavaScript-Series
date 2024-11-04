@@ -1,0 +1,1 @@
+// Prototype in JS | is Function is a Object
