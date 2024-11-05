@@ -39,7 +39,50 @@ Array.prototype.heydishant = function(){
 
 
 
-// inheritance
+// inheritance (prototypal-inheritance)
+
+//old synatax
+const User = {
+    name: "chai",
+    email: "chaiwala@google.com"
+}
 
 
+const Teacher = {
+    takeClass: true
+}
+
+const TeachingSupport = {
+    isAvailable: false
+}
+
+const TASupport = {
+    makeAssignment: 'JS assignment',
+    fullTime: true,
+    __proto__: TeachingSupport
+}
+
+Teacher.__proto__ = User
+
+
+
+
+
+
+
+// Mordern Syntax
+
+Object.setPrototypeOf(TeachingSupport, Teacher) //(prototypal-inheritance)
+
+let anotherUsername = "ChaiAurPM       "
+
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    // console.log(`${this.name}`); // undefined
+    console.log(`Ture length is: ${this.trim().length}`);
+}
+
+anotherUsername.trueLength()
+"dishant".trueLength()
+"elachiTea".trueLength()
 
