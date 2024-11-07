@@ -29,6 +29,7 @@ console.log(chai.changeUsername());
 
 
 
+
 // behind the scene
 function user(username, email, password) {
     this.username = username;
