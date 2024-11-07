@@ -1,36 +1,36 @@
 // This JS series Lectures is madeup after the Launch of "ES6"  
 
 
-// class User {
-//     // declaring constructor
-//     constructor(username, email, password) {
-//         this.username = username;
-//         this.email = email;
-//         this.password = password;
-//     }
+class User {
+    // declaring constructor
+    constructor(username, email, password) {
+        this.username = username;
+        this.email = email;
+        this.password = password;
+    }
 
-//     // declaring own methods
-//     encryptPassword() {
-//         return `${this.password}abc`
-//     }
-//     // declaring own methods
-//     changeUsername() {
-//         return `${this.username.toUpperCase()}`
-//     }
+    // declaring own methods
+    encryptPassword() {
+        return `${this.password}abc`
+    }
+    // declaring own methods
+    changeUsername() {
+        return `${this.username.toUpperCase()}`
+    }
 
-// }
+}
 
 
-// const chai = new User("chai", "chai@fb.com", "123")
+const chai = new User("chai", "chai@fb.com", "123")
 
-// console.log(chai.encryptPassword());
-// console.log(chai.changeUsername());
+console.log(chai.encryptPassword());
+console.log(chai.changeUsername());
 
 
 
 
 // behind the scene
-function User(username, email, password) {
+function user(username, email, password) {
     this.username = username;
     this.email = email;
     this.password = password;
@@ -38,16 +38,16 @@ function User(username, email, password) {
 
 
 // adding/injecting properties in this above mentioned functions
-User.prototype.encryptPassword = function() {
+user.prototype.encryptPassword = function() {
     return `${this.password}abc`
 }
-User.prototype.changeUsername = function() {
+user.prototype.changeUsername = function() {
     return `${this.username.toUpperCase()}`
 }
 
 
 // use-Case of this function 4 behind scenes
-const tea = new User("tea", "tea@fb.com", "123")
+const tea = new user("tea", "tea@fb.com", "123")
 
 console.log(tea.encryptPassword());
 console.log(tea.changeUsername());
