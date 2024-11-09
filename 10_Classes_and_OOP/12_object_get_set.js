@@ -3,8 +3,8 @@
 
 // declaring Object
 const UserAsObj = {
-    _email: 'dp@tesla.ai',
-    _password: "asdfg",
+    _email: 'tea@powerbychai.com',
+    _password: "123",
 
 
     get email() {
