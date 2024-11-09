@@ -1,4 +1,4 @@
-// How Getter & Setter are define using properties (Old synatx) i.e, usally found in old code files.
+// How Getter & Setter are declare using define-property (Old synatx) i.e, usally found in old code files.
 
 
 
