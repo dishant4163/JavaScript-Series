@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Closure</title>
+    
+</head>
+<body style="background-color: #313131; color:yellow ">
+    <p style="text-align:center;">Learing Closure & Lexical scoping in JS from Chai aur Code</p>
+
+    <br/>
+    <br/>
+
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+</body>
+
+    <script>
+
+    // function init() {
+    //     let name = "Angle of Death"; // name is a local variable created by init
+
+    //     function displayName() {
+    //         // displayName() is the inner function, that forms the Closure
+    //         console.log(name); // use variable declared in the parent function
+    //     }
+
+    //     displayName();
+    // }
+    // init();
+
+
+// this is the E.g., of Lexical Scoping (func ke undar func)
+//    function outer() {
+//        let username = "dishant"
+//        console.log("OUTER", secret);
+
+//        function inner() {
+//            let secret = "myChai"
+//            console.log("Inner", username)
+//        }
+//        function innerTwo() {
+//            console.log("inner2", username);
+//            console.log(secret); //cannot access inner2 function
+//        }
+//        inner()
+//        innerTwo()
+
+//    }
+//    outer()
+//    console.log("TOO OUTER", username)
+
+
+
+
+// CLOSURE
+// function makeFunc() {
+//     const name = "Mozilla";
+//     function displayName() {
+//         console.log(name);
+//     }
+//     return displayName; // passig function reference as return
+// }
+
+// const myFunc = makeFunc();
+// myFunc();
+
+    </script>
+
+    <script>
+        // document.getElementById("orange").onclick = function()
+        // {
+        //    document.body.style.backgroundColor = `orange`
+        // }
+        // document.getElementById("green").onclick = function()
+        // {
+        //     document.body.style.backgroundColor = `green`
+        // }
+
+
+
+// Real use case of clouser & lexical-scoping
+        function clickHandler(color){
+            // document.body.style.backgroundColor = `${color}` //ye kamm nhi karega 
+
+            return function(){
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById('orange').onclick = clickHandler("orange")
+        document.getElementById('green').onclick = clickHandler("green")
+
+
+    </script>
+
+</html>
+
+
+
+<!-- NOtes
+
+ 1. In techinal Lexical-Scope gives Inner function k pass outer function scope ho tha h. 
+
+ 2. Closure -> In simple means, When entire function is return, then not only
+ the function is returned, its entire scope is returned and it is not just the scope,
+ its entire lexical scope is returned.
+-->
