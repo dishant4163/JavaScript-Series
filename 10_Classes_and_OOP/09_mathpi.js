@@ -60,3 +60,25 @@ for (let [key, value] of Object.entries(chai)) {
 // by default object iterable nhi h tu
 // tu iterate krne k liye ' Object.entries() ' ka use krna hota h
 // or is k undar object define karna hota h.
+
+
+
+
+
+
+// Now Soln for the asked query in Interview
+
+// First, get the property descriptor of Math.PI
+const descriptor2 = Object.getOwnPropertyDescriptor(Math, 'PI');
+
+// Then, redefine the property to make it writable
+Object.defineProperty(Math, 'PI', { writable: true, configurable: true });
+
+// Now you can change its value
+Math.PI = 3;
+console.log(Math.PI); // 3
+
+// Restore the original property descriptor to protect it again
+Object.defineProperty(Math, 'PI', descriptor2);
+console.log(Math.PI); // 3.141592653589793
+
