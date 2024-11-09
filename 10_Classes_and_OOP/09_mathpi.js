@@ -66,7 +66,7 @@ for (let [key, value] of Object.entries(chai)) {
 
 
 
-// Now Soln for the asked query in Interview
+/*// Now Soln for the asked query in Interview
 
 // First, get the property descriptor of Math.PI
 const descriptor2 = Object.getOwnPropertyDescriptor(Math, 'PI');
@@ -82,3 +82,4 @@ console.log(Math.PI); // 3
 Object.defineProperty(Math, 'PI', descriptor2);
 console.log(Math.PI); // 3.141592653589793
 
+*/
